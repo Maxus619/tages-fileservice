@@ -1,0 +1,7 @@
+env: "local" # local, dev, prod
+port: 50051
+upload_dir: "./uploads"
+limits: # limits for connections
+  upload: 10
+  download: 10
+  list: 100
